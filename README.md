@@ -1,4 +1,6 @@
+```
 import java.util.Scanner;
+```
 Baris ini mengimpor kelas Scanner dari paket java.util, yang digunakan untuk membaca input dari pengguna.
 
 public class UAS2_1 {
