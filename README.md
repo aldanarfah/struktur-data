@@ -100,3 +100,57 @@ switch (pilihan) {
         System.out.println();
         break;
         ```
+Case 1 untuk menambah pesanan. Membaca nomor menu dan kuantitas pesanan dari pengguna, lalu menyimpannya dalam array yang sesuai.
+
+```
+case 2:
+        int totalSementara = 0;
+        System.out.println();
+        System.out.println("=== Daftar pesanan ===");
+        for (int i = 0; i < total; i++) {
+            System.out.println((i + 1) + ". " + " " + namaPesanan[i] + " x" + kuantitasBeli[i] + " - Rp." + (harga[i] * kuantitasBeli[i]));
+            totalSementara += harga[i] * kuantitasBeli[i];
+
+            System.out.println("Total Biaya Sementara: Rp." + totalSementara);
+        }
+        System.out.println();
+        break;
+        ```
+Case 2 untuk menampilkan data pesanan. Menampilkan nama pesanan, kuantitas, dan total sementara.
+
+```
+case 3:
+        int totalBayar = 0;
+        for (int i = 0; i < total; i++) {
+            totalBayar += harga[i] * kuantitasBeli[i];
+        }
+        System.out.println("total bayar: Rp." + totalBayar);
+        System.out.println();
+        break;
+        ```
+Case 3 untuk menghitung total biaya pesanan.
+
+```
+case 4:
+        System.out.println("Terima kasih telah memesan di kafe kami");
+        break;
+    default:
+        System.out.println("pilih tidak valid. silahkan coba lagi");
+}
+```
+Case 4 untuk menyelesaikan program. Menampilkan pesan terima kasih. Default case untuk menangani input yang tidak valid.
+
+```
+} while (pilihan != 4);
+```
+Loop do-while berlanjut hingga pengguna memilih 4.
+
+```
+}
+```
+Penutup metode main.
+
+```
+}
+```
+Penutup kelas UAS2_1    
