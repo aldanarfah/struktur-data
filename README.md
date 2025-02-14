@@ -116,7 +116,7 @@ case 2:
         System.out.println();
         break;
         ```
-Case 2 untuk menampilkan data pesanan. Menampilkan nama pesanan, kuantitas, dan total sementara.
+case 2 untuk menampilkan data pesanan. Menampilkan nama pesanan, kuantitas, dan total sementara.
 
 ```
 case 3:
@@ -128,7 +128,7 @@ case 3:
         System.out.println();
         break;
         ```
-Case 3 untuk menghitung total biaya pesanan.
+case 3 untuk menghitung total biaya pesanan.
 
 ```
 case 4:
@@ -138,19 +138,19 @@ case 4:
         System.out.println("pilih tidak valid. silahkan coba lagi");
 }
 ```
-Case 4 untuk menyelesaikan program. Menampilkan pesan terima kasih. Default case untuk menangani input yang tidak valid.
+case 4 untuk menyelesaikan program. Menampilkan pesan terima kasih. Default case untuk menangani input yang tidak valid.
 
 ```
 } while (pilihan != 4);
 ```
-Loop do-while berlanjut hingga pengguna memilih 4.
+loop do-while berlanjut hingga pengguna memilih 4.
 
 ```
 }
 ```
-Penutup metode main.
+sebagai penutup dari main metode
 
 ```
 }
 ```
-Penutup kelas UAS2_1    
+sebagai penutup kelas UAS2_1
